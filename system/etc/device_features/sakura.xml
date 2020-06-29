@@ -119,7 +119,7 @@
     <!--whether support new style time watermark in camera-->
     <bool name="support_camera_new_style_time_water_mark">true</bool>
     <!--whether support face info watermark in camera-->
-    <bool name="support_camera_face_info_water_mark">true</bool>
+    <bool name="support_camera_face_info_water_mark">false</bool>
     <!--whether support boosting screen brightness in camera-->
     <bool name="support_camera_boost_brightness">true</bool>
     <!--whether taking lower size panorama in camera-->
@@ -164,7 +164,7 @@
     <!--whether listen frame with single subthread looper in camera-->
     <bool name="is_camera_preview_with_subthread_looper">true</bool>
     <!--whether add watermark in camera app-->
-    <bool name="is_camera_app_water_mark">true</bool>
+    <bool name="is_camera_app_water_mark">false</bool>
 <!--whether support new style time watermark in camera--> <bool name="support_camera_new_style_time_water_mark">true</bool>
     <!--whether support tiltshift  in camera-->
     <bool name="support_camera_tilt_shift">true</bool>
@@ -326,9 +326,9 @@
     <!--whether support auto mirror in camera-->
     <bool name="support_auto_mirror">false</bool>
     <!--whether support add watermark on bottom left of picture-->
-    <bool name="support_picture_watermark">true</bool>
+    <bool name="support_picture_watermark">false</bool>
     <!-- whether camera dual watermark default open -->
-    <bool name="camera_picture_watermark_default">true</bool>
+    <bool name="camera_picture_watermark_default">false</bool>
     <!--whether add algorithm in file name or not-->
     <bool name="enable_algorithm_in_file_suffix">false</bool>
     <!-- device head sar value -->
